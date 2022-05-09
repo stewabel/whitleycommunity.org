@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-whitleycommunityorg-dev-214612-authRole",
+      "UnauthRoleArn": "arn:aws:iam::866355096561:role/amplify-whitleycommunityorg-dev-214612-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::866355096561:role/amplify-whitleycommunityorg-dev-214612-authRole",
+      "Region": "eu-west-2",
+      "DeploymentBucketName": "amplify-whitleycommunityorg-dev-214612-deployment",
+      "UnauthRoleName": "amplify-whitleycommunityorg-dev-214612-unauthRole",
+      "StackName": "amplify-whitleycommunityorg-dev-214612",
+      "StackId": "arn:aws:cloudformation:eu-west-2:866355096561:stack/amplify-whitleycommunityorg-dev-214612/3df82c10-cfd9-11ec-9c53-0a24e1866e62",
+      "AmplifyAppId": "d94cddcxkmcvf"
+    }
+  }
+}
