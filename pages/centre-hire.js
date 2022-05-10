@@ -1,10 +1,18 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import { View, Card } from '@aws-amplify/ui-react';
+import {
+  View,
+  Card, 
+  Flex,
+  Heading,
+  Text,
+  Image,
+  useTheme } from '@aws-amplify/ui-react';
+
 import '@aws-amplify/ui-react/styles.css';
 import styles from '../styles/Home.module.css'
 
 export default function CentreHire() {
+  const { tokens } = useTheme();
   return (
     <>
       <Head>
@@ -22,19 +30,32 @@ export default function CentreHire() {
           WCA - Hiring our Community Centre
         </h1>
       </View>
+      
       <Card
         ariaLabel="View example"
         backgroundColor="var(--amplify-colors-white)"
         padding="1rem"
         style={{  position: 'relative', width: '100vw'}}
         >
-        <Image src="/centre-aerial-1.jpg"
-                alt="Whitley Community Centre. An 1800s, Yorkshire stone built former school."
-                layout="responsive"
-                width="828"
-                height="465"
-                objectFit="fit"
-        />
+        <Flex direction="row" alignItems="flex-start">
+            <Image src="/centre-aerial-1.jpg"
+                  alt="Whitley Community Centre. An 1800s, Yorkshire stone built former school."
+                  width="33%"
+            />
+          <Flex
+            direction="column"
+            alignItems="flex-start"
+            gap={tokens.space.xs}
+          >
+            <Heading level={5}>
+              Hiring Our Centre
+            </Heading>
+
+            <Text as="span">
+              
+            </Text>
+          </Flex>
+        </Flex>
       </Card>
     </>
   )
