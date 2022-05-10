@@ -1,15 +1,23 @@
 {
-  "dev": {
-    "awscloudformation": {
-      "AuthRoleName": "amplify-whitleycommunityorg-dev-214612-authRole",
-      "UnauthRoleArn": "arn:aws:iam::866355096561:role/amplify-whitleycommunityorg-dev-214612-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::866355096561:role/amplify-whitleycommunityorg-dev-214612-authRole",
-      "Region": "eu-west-2",
-      "DeploymentBucketName": "amplify-whitleycommunityorg-dev-214612-deployment",
-      "UnauthRoleName": "amplify-whitleycommunityorg-dev-214612-unauthRole",
-      "StackName": "amplify-whitleycommunityorg-dev-214612",
-      "StackId": "arn:aws:cloudformation:eu-west-2:866355096561:stack/amplify-whitleycommunityorg-dev-214612/3df82c10-cfd9-11ec-9c53-0a24e1866e62",
-      "AmplifyAppId": "d94cddcxkmcvf"
+    "production": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-whitleycommunityorg-production-153916-authRole",
+            "UnauthRoleArn": "arn:aws:iam::866355096561:role/amplify-whitleycommunityorg-production-153916-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::866355096561:role/amplify-whitleycommunityorg-production-153916-authRole",
+            "Region": "eu-west-2",
+            "DeploymentBucketName": "amplify-whitleycommunityorg-production-153916-deployment",
+            "UnauthRoleName": "amplify-whitleycommunityorg-production-153916-unauthRole",
+            "StackName": "amplify-whitleycommunityorg-production-153916",
+            "StackId": "arn:aws:cloudformation:eu-west-2:866355096561:stack/amplify-whitleycommunityorg-production-153916/f94ff6b0-d06e-11ec-88f6-06fbef8e800e",
+            "AmplifyAppId": "d1ybcwq1ng0lhv"
+        },
+        "categories": {
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "d1ybcwq1ng0lhv",
+                    "type": "cicd"
+                }
+            }
+        }
     }
-  }
 }
