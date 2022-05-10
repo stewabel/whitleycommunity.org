@@ -1,23 +1,11 @@
 import Image from 'next/image'
 import { View, Card } from '@aws-amplify/ui-react';
 import '@aws-amplify/ui-react/styles.css';
-import styles from '../styles/Home.module.css'
+
 
 export default function Home() {
   return (
     <>
-      <View
-        as="div"
-        ariaLabel="View example"
-        backgroundColor="var(--amplify-colors-white)"
-        padding="1rem"
-        width="100%"
-        >
-        <h1 className={styles.title}>
-          Whitley Community Association
-        </h1>
-      </View>
-
       <Card
         ariaLabel="View example"
         backgroundColor="var(--amplify-colors-white)"

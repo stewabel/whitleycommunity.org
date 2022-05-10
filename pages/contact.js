@@ -19,17 +19,6 @@ export default function CentreHire() {
         <title>WCA - Contact</title>
         <meta name="description" content="WCA - Contact" />
       </Head>
-      <View
-        as="div"
-        ariaLabel="View example"
-        backgroundColor="var(--amplify-colors-white)"
-        padding="1rem"
-        width="100%"
-        >
-        <h1 className={styles.title}>
-          Whitley Community Association
-        </h1>
-      </View>
       
       <Card
         ariaLabel="View example"
