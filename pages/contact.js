@@ -27,10 +27,13 @@ export default function CentreHire() {
         style={{  position: 'relative', width: '100vw'}}
         >
         <Flex direction="row" alignItems="flex-start">
-            <Image src="/centre-aerial-1.jpg"
-                  alt="Whitley Community Centre. An 1800s, Yorkshire stone built former school."
-                  width="33%"
-            />
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2364.564268392122!2d-1.6659211840707868!3d53.65474118004486!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bdf4483ccce67%3A0x320747c125da2961!2sWhitley%20Community%20Centre!5e0!3m2!1sen!2suk!4v1652204140486!5m2!1sen!2suk"
+            width="50%"
+            height="450"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
             
           <Flex
             direction="column"
