@@ -14,3 +14,14 @@ a {
 * {
   box-sizing: border-box;
 }
+
+menu {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  width: 400px;
+}
+
+li {
+  flex-grow: 1;
+}
