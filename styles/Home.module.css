@@ -12,6 +12,15 @@
   align-items: center;
 }
 
+.menu {
+  display: flex;
+
+}
+
+.menu li {
+  text-align: center;
+}
+
 .footer {
   display: flex;
   flex: 1;

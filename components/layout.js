@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { View } from '@aws-amplify/ui-react';
+import { View, Menu, MenuItem, Flex } from '@aws-amplify/ui-react';
 import styles from '../styles/Home.module.css'
 
 export default function Layout({ children }) {
@@ -24,12 +24,18 @@ export default function Layout({ children }) {
                 Whitley Community Association
                 </h1>
             </View>
-            <menu>
-        <li><a href="/">Home</a></li>
-        <li><a href="/about-us">About Us</a></li>
-        <li><a href="/centre-hire">Hire our Centre</a></li>
-        <li><a href='/contact'>Contact</a></li>
-      </menu>
+            
+            <Flex
+                direction="row"
+                justifyContent="center">
+                    
+                <menu className={styles.menu}>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about-us">About Us</a></li>
+                    <li><a href="/centre-hire">Hire our Centre</a></li>
+                    <li><a href='/contact'>Contact</a></li>
+                </menu>
+            </Flex>
             {children}
         </main>
         </div>
