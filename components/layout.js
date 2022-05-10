@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 import { View, Menu, MenuItem, Flex } from '@aws-amplify/ui-react';
 import styles from '../styles/Home.module.css'
 
@@ -28,12 +29,12 @@ export default function Layout({ children }) {
             <Flex
                 direction="row"
                 justifyContent="center">
-                    
+
                 <menu className={styles.menu}>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/about-us">About Us</a></li>
-                    <li><a href="/centre-hire">Hire our Centre</a></li>
-                    <li><a href='/contact'>Contact</a></li>
+                    <li><Link href="/"><a>Home</a></Link></li>
+                    <li><Link href="/about-us"><a>About Us</a></Link></li>
+                    <li><Link href="/centre-hire"><a>Hire our Centre</a></Link></li>
+                    <li><Link href='/contact'><a>Contact</a></Link></li>
                 </menu>
             </Flex>
             {children}
