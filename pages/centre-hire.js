@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import {
-  View,
+  Link,
   Card, 
   Flex,
   Heading,
@@ -19,7 +19,7 @@ export default function CentreHire() {
         <title>WCA - Hiring our Centre</title>
         <meta name="description" content="WCA - Hiring our Centre" />
       </Head>
-      
+
       <Card
         ariaLabel="View example"
         backgroundColor="var(--amplify-colors-white)"
@@ -41,7 +41,28 @@ export default function CentreHire() {
             </Heading>
 
             <Text as="span">
-              
+              <p>
+                Our beautiful community centre is available for hire. We offer a large hall, 
+                kitchen facilities and a licenesed bar.<br />
+                Special rates are be offered to charities, and discounts for block bookings<br />
+                Please <Link href="/contact">get in touch</Link> to discuss your requirements.
+              </p>
+
+              <Heading level={6}>
+                Rates
+              </Heading>
+              <ul>
+              <li>Hourly - £20 (minimum 2 hours)</li>
+              <li>Half day (day time)- £50</li>
+              <li>Evening - £75</li>
+              <li>Full day (weekend)</li>
+              <li>Full day - £125 (weekday)</li>
+              </ul>
+
+              <p>
+                £50 deposit on booking< br />
+                Optional £20 cleaning fee
+              </p>
             </Text>
           </Flex>
         </Flex>
