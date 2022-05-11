@@ -44,7 +44,7 @@ export default function CentreHire() {
               <p>
                 Our beautiful community centre is available for hire. We offer a large hall, 
                 kitchen facilities and a licenesed bar.<br />
-                Special rates are be offered to charities, and discounts for block bookings.<br />
+                Special rates are offered to charities, and discounts for block bookings.<br />
                 Please <Link href="/contact">get in touch</Link> to discuss your requirements.
               </p>
 
@@ -61,7 +61,7 @@ export default function CentreHire() {
 
               <p>
                 £50 deposit on booking< br />
-                Optional £20 cleaning fee
+                Cleaning fee applies
               </p>
             </Text>
           </Flex>

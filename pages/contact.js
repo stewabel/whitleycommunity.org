@@ -47,9 +47,9 @@ export default function CentreHire() {
             <Text as="span">
             <address>
                 <p>
-                Whiltey Community Association,<br />
+                Whitley Community Association,<br />
                 Whitley Community Centre,<br />
-                Howroyd Ln,<br />
+                Howroyd Lane,<br />
                 Whitley Lower,<br />
                 Dewsbury <br />
                 WF12 0NB
