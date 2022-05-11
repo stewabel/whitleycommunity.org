@@ -44,7 +44,7 @@ export default function CentreHire() {
               <p>
                 Our beautiful community centre is available for hire. We offer a large hall, 
                 kitchen facilities and a licenesed bar.<br />
-                Special rates are be offered to charities, and discounts for block bookings<br />
+                Special rates are be offered to charities, and discounts for block bookings.<br />
                 Please <Link href="/contact">get in touch</Link> to discuss your requirements.
               </p>
 
@@ -55,8 +55,8 @@ export default function CentreHire() {
               <li>Hourly - £20 (minimum 2 hours)</li>
               <li>Half day (day time)- £50</li>
               <li>Evening - £75</li>
-              <li>Full day (weekend)</li>
-              <li>Full day - £125 (weekday)</li>
+              <li>Full day (weekend) - £150</li>
+              <li>Full day (weekday) - £125</li>
               </ul>
 
               <p>
