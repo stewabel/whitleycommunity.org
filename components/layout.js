@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import { View, Menu, MenuItem, Flex } from '@aws-amplify/ui-react';
+import { View, Menu, MenuItem, Flex, Image } from '@aws-amplify/ui-react';
 import styles from '../styles/Home.module.css'
 
 export default function Layout({ children }) {
@@ -38,6 +38,21 @@ export default function Layout({ children }) {
                 </menu>
             </Flex>
             {children}
+            <Flex
+                direction="row"
+                justifyContent="center">
+                    Supported By
+            </Flex>
+            <Flex
+                direction="row"
+                justifyContent="center">
+                    <Image
+                        src="/SE_TNL_Landscape_2021_RGB.png"
+                        alt="National Lottery & Sport England"
+                        layout="responsive"
+                        maxHeight="100px"
+                        />
+            </Flex>
         </main>
         </div>
     </>
