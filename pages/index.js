@@ -54,6 +54,19 @@ export default function Home() {
                   The 2023 AGM will be held <br/>
                   <b>7pm, Monday 13th March 2023</b> <br/>
                   at the Community Centre
+
+                    <ul>
+                      <li>Chairman Report and progress since last AGM</li>
+                      <li>Treasurers Report</li>
+                      <li>Election Committee for 2023 - 2024</li>
+                    </ul>
+
+                    <p><b>REMEMBER…………</b></p>
+
+                    <p>The Whitley Community Association BELONGS TO YOU!</p>
+                    <p>The Whitley Community Centre BELONGS TO YOU!</p> 
+                    <p>YOUR opinion and YOUR ideas matter and need to be heard for the benefit of OUR community</p>
+                    <p>By standing together we can influence local government and the provision of local government services to the benefit of OUR community</p>
                 </Text>
             </Flex>
           </Flex>
