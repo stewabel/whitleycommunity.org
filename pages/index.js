@@ -67,6 +67,7 @@ export default function Home() {
                     <p>The Whitley Community Centre BELONGS TO YOU!</p> 
                     <p>YOUR opinion and YOUR ideas matter and need to be heard for the benefit of OUR community</p>
                     <p>By standing together we can influence local government and the provision of local government services to the benefit of OUR community</p>
+                    <p><a href='constitution.docx'>Download the proposed constitution</a></p>
                 </Text>
             </Flex>
           </Flex>
