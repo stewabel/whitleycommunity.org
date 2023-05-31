@@ -53,10 +53,11 @@ export default function CentreHire() {
               </Heading>
               <ul>
               <li>Hourly - £22 (minimum 2 hours)</li>
-              <li>Half day (day time)- £55</li>
-              <li>Evening - £82.50</li>
+              <li>Half day (Monday - Friday) - £55</li>
+              <li>Half day (Weekend) - £80</li>
+              <li>Evening (Monday - Friday) - £82.50</li>
               <li>Full day (weekend) - £165</li>
-              <li>Full day (weekday) - £117.50</li>
+              <li>Full day (weekday) - £137.50</li>
               </ul>
 
               <p>
