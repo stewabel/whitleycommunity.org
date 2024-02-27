@@ -51,14 +51,14 @@ export default function Home() {
               gap={tokens.space.xs}
               >
                 <Text as="span">
-                  The 2023 AGM will be held <br/>
-                  <b>7pm, Monday 13th March 2023</b> <br/>
+                  The 2024 AGM will be held <br/>
+                  <b>7pm, Monday 11th March 2024</b> <br/>
                   at the Community Centre
 
                     <ul>
                       <li>Chairman Report and progress since last AGM</li>
                       <li>Treasurers Report</li>
-                      <li>Election Committee for 2023 - 2024</li>
+                      <li>Election Committee for 2024 - 2025</li>
                     </ul>
 
                     <p><b>REMEMBER…………</b></p>

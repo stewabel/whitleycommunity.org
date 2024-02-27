@@ -52,12 +52,12 @@ export default function CentreHire() {
                 Rates
               </Heading>
               <ul>
-              <li>Hourly - £22 (minimum 2 hours)</li>
-              <li>Half day (Monday - Friday) - £55</li>
-              <li>Half day (Weekend) - £80</li>
-              <li>Evening (Monday - Friday) - £82.50</li>
-              <li>Full day (weekend) - £165</li>
-              <li>Full day (weekday) - £137.50</li>
+              <li>Hourly - £24 (minimum 2 hours)</li>
+              <li>Half day (Monday - Friday) - £60.5</li>
+              <li>Half day (Weekend) - £88</li>
+              <li>Evening (Monday - Friday) - £90.75</li>
+              <li>Full day (weekend) - £181.50</li>
+              <li>Full day (weekday) - £151.25</li>
               </ul>
 
               <p>
