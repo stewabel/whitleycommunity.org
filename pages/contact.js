@@ -54,7 +54,7 @@ export default function CentreHire() {
                 Dewsbury <br />
                 WF12 0NB
                 </p>
-                <a href="tel:+447717876017">07717 876017</a>
+                <a href="tel:+441924613627">01924 613627</a>
             </address>
             
             </Text>
