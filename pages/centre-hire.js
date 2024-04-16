@@ -47,23 +47,6 @@ export default function CentreHire() {
                 Special rates are offered to charities, and discounts for block bookings.<br />
                 Please <Link href="/contact">get in touch</Link> to discuss your requirements.
               </p>
-
-              <Heading level={6}>
-                Rates
-              </Heading>
-              <ul>
-              <li>Hourly - £24 (minimum 2 hours)</li>
-              <li>Half day (Monday - Friday) - £60.5</li>
-              <li>Half day (Weekend) - £88</li>
-              <li>Evening (Monday - Friday) - £90.75</li>
-              <li>Full day (weekend) - £181.50</li>
-              <li>Full day (weekday) - £151.25</li>
-              </ul>
-
-              <p>
-                £50 deposit on booking< br />
-                Cleaning fee applies
-              </p>
             </Text>
           </Flex>
         </Flex>
